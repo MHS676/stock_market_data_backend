@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telecommunication-backend
+    name: backend
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host $HOST --port $PORT
