@@ -4,7 +4,7 @@ from routes import router
 
 app = FastAPI()
 
-# CORS Configuration
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
